@@ -1,0 +1,29 @@
+/**
+ *  The "style" folder contains global styles.
+ */
+
+html, body {
+	background: #000000;
+	margin: 0;
+	font: 14px/1.21 system-ui, 'Helvetica Neue', arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.devs {
+	background: linear-gradient(0.25turn, #dc03b9, #4102e1);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app {
+	color: #fff;
+	font-size: 5rem;
+	border: 2px solid black;
+}
